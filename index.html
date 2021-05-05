@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit">
+    <meta name="force-rendering" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>史莱姆 - 首页</title>
+    <link rel="icon" sizes="192x192" href="images/favicon.png">
+    <link rel="shortcut icon" href="images/favicon.png">
+	  
+    <link rel="stylesheet" href="libs/material-design-icons/3.0.2/material-icons.min.css">
+	<link rel="stylesheet" href="libs/material-design-lite/1.3.0/material.min.css">
+	<script src="libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/index.css">
+    
+</head>
+
+<body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <script src="js/header.js"></script>
+        <script>$(".mainpage").addClass("active");</script>
+
+        <div class="layout-content mdl-layout__content">
+            <a name="top"></a>
+            <!-- Content -->
+
+            <div class="slime-logo-section">
+                <img class="slime-logo-img" src="images/slime.png">
+            </div>
+
+            <div class="mdl-grid grid-max-width">
+                <div class="mdl-cell mdl-cell--12-col mdl-cell--8-col-tablet mdl-card mdl-shadow--4dp">
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">史莱姆服务器官方账号</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        <p>点击下方按钮关注我们的比利♂比利官方账号</p>
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <div class="button-to-bilibili">
+                            <a href="https://space.bilibili.com/518907158" target="_blank" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent">
+                                <img src="images/arrow_2.png">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mdl-cell mdl-cell--3-col mdl-cell--8-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--4dp">
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">服务器介绍</h2>
+                    </div>
+                    <!--
+                    <div class="mdl-card__media">
+                        <a href="#"><p>Media</p></a>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        <p>Supporting text.</p>
+                    </div>
+                    -->
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a href="introduction.html" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent">
+                            服务器介绍 >>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="mdl-cell mdl-cell--3-col mdl-cell--8-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--4dp">
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">服务器成员</h2>
+                    </div>
+                    <!--
+                    <div class="mdl-card__media">
+                        <a href="#"><p>Media</p></a>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        <p>Supporting text.</p>
+                    </div>
+                    -->
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a href="members.html" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent">
+                            服务器成员 >>
+                        </a>
+                    </div>
+                </div>
+                
+                <!--
+                <div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet mdl-card mdl-shadow--4dp">
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">服务器卫星地图</h2>
+                    </div>
+                    <!-
+                    <div class="mdl-card__media">
+                        <a href="#"><p>Media</p></a>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        <p>Supporting text.</p>
+                    </div>
+                    ->
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a href="joinus.html" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent">
+                            查看卫星地图 >>
+                        </a>
+                    </div>
+                </div>
+                -->
+                <div class="mdl-cell mdl-cell--6-col mdl-cell--8-col-tablet mdl-card mdl-shadow--4dp">
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">加入我们</h2>
+                    </div>
+                    <!--
+                    <div class="mdl-card__media">
+                        <a href="#"><p>Media</p></a>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        <p>Supporting text.</p>
+                    </div>
+                    -->
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a href="joinus.html" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect mdl-button--accent">
+                            加入我们 >>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <script src="js/footer.js"></script>
+        </div>
+
+    </div>
+    <script src="libs/material-design-lite/1.3.0/material.min.js"></script>
+    <script>
+        var click = 0;
+        var timing = false;
+        $("#logo-image-drawer").click(function(){
+            click++;
+            if(!timing){
+                timing = true;
+                setTimeout(function(){
+                    timing = false;
+                    click = 0;
+                }, 1000);
+            }
+            if(click >= 2){
+                window.open("/status.html", "_blank");
+                click = 0;
+            }
+        });
+
+    </script>
+</body>
+
+</html>

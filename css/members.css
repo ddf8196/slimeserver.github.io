@@ -1,0 +1,53 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.slime-members .mdl-card {
+    position: relative;
+    margin-bottom: 16px;
+    height: auto;
+
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    
+}
+
+.slime-members .mdl-card > * {
+    height: auto;
+}
+
+.slime-members .mdl-card .mdl-card__supporting-text {
+    margin: 40px;
+    -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    padding: 0;
+    color: inherit;
+    width: calc(100% - 80px);
+}
+
+
+
+.slime-members .mdl-card__supporting-text h4 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+
+.slime-members .mdl-layout__tab-panel {
+    padding: 8px;
+    max-width: 900px;
+    margin: auto;
+}
+
+@media (max-width: 839px) and (min-width: 480px){
+    .mdl-cell--4-col, .mdl-cell--4-col-tablet.mdl-cell--4-col-tablet {
+        width: calc(100% - 16px);
+    }
+}

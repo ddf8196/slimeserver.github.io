@@ -1,0 +1,48 @@
+.slime-logo-section {
+    position: relative;
+    left: calc(50% - 512px);
+}
+.slime-logo-section .slime-logo-img {
+    height: 600px;
+    width: 1024px;
+}
+
+.table-content {
+	color: #C00;
+    text-align: center;
+    margin: auto;
+	font-weight: bold;
+}
+
+.table-content td {
+    font-size: 36px;
+    line-height: 36px;
+}
+
+.grid-max-width {
+    max-width: 900px;
+    margin: auto;
+}
+
+
+.button-to-bilibili a img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+@media (max-width: 900px) {
+    .slime-logo-section {
+        position: relative;
+        left: calc(50% - 256px);
+    }
+    .slime-logo-section .slime-logo-img {
+        height: 300px;
+        width: 512px;
+    }
+    .table-content td {
+        font-size: 18px;
+        line-height: 18px;
+    }
+}
+
